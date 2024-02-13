@@ -1,0 +1,128 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.card {
+  background-color: rgb(239, 227, 210);
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+/* .card:hover {
+  background-color: blueviolet;
+} */
+
+.avatar img {
+  border-radius: 35px;
+}
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  color: rgb(148, 165, 131);
+}
+
+.links-with-me a {
+  color: #111;
+  text-decoration: none;
+}
+
+.links-with-me a:hover {
+  color: rgb(148, 165, 131);
+  text-decoration: underline;
+}
+
+.links-with-me a:active {
+  color: rgb(22, 195, 178);
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #555353fc;
+  margin-bottom: 10px;
+}
+
+.table-skills {
+  width: 100%;
+}
+
+.table-skills td {
+  padding-bottom: 10px;
+}
+
+.table-skills td:nth-child(2),
+.table-skills td:nth-child(3) {
+  color: #555353fc;
+}
+
+.aboutMe {
+  display: flex;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.avatar {
+  margin-top: 20px;
+}
+
+.main {
+  margin-top: 20px;
+  padding-left: 40px;
+}
+
+.contact label {
+  display: block;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.contact input,
+textarea {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1px solid rgb(102, 30, 30);
+}
+
+.input-form {
+  display: flex;
+}
+
+.input-form .input-form-text {
+  width: 50%;
+}
+
+.input-form .input-form-text:last-child {
+  margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .aboutMe {
+    display: block;
+    text-align: center;
+  }
+  .main {
+    padding-left: 15px;
+  }
+}
